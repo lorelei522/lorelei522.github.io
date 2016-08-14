@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Page</title>
+</head>
+<body>
+  <section>
+    <h1>Sign up new blog post reminders</h1>
+    <form name="email reminders" action="ThankYou.html" method="post">
+      <div>
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Full Name Please"/>
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Example@Mail.com"/>
+      </div>
+      <div>
+        <label>How often would you like to be emailed?</label>
+        <select name="email_frequency">
+          <option value="weekly">Weekly</option>
+          <option value="monthly">Monthly</option>
+          <option value="quarterly">Quarterly</option>
+        </select>
+      </div>      
+      <div>
+        <input type="checkbox" name="agreement" value="agree"/> I agree to receive emails from Lori's Photography Page.
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+</html>
