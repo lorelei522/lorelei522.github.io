@@ -63,3 +63,9 @@ h1 {
    margin: auto;
    text-align: center
 }
+
+ul {
+   position: relative; 
+   max-width: 500px;
+   margin: auto;
+}
