@@ -11,3 +11,11 @@ img {
     border-style: solid;
     border-radius: 10px;
 }
+
+footer {
+	display: inline-block;
+	padding: 10px;
+	margin: 20px;
+	border: dotted #00CED1;
+	text-align: center;
+}
