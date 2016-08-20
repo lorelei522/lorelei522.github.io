@@ -21,6 +21,7 @@ footer {
   position: relative; 
   max-width: 500px;
   margin: auto;
+  text-align: center;
 }
 
 a:visited {
