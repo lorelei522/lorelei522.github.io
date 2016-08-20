@@ -3,8 +3,8 @@ body{
   font: "Courier New";
   font-size: 18px;
 }
-
 img {
+	margin: 20px;
 	padding: 20px;
 	border: 5px #00CED1;
     border-style: solid;
@@ -16,9 +16,8 @@ footer {
 	padding: 10px;
 	margin: 20px;
 	border: dotted #00CED1;
-	text-align: center;
-
 }
+
 a:visited {
     color: Red;
 }
@@ -27,3 +26,4 @@ a:visited {
 	text-align: center;
 	color: blue;
 }
+
