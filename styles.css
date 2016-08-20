@@ -2,7 +2,6 @@ body{
   background-color: pink;
   font: "Courier New";
   font-size: 18px;
-
 }
 
 img {
@@ -18,4 +17,8 @@ footer {
 	margin: 20px;
 	border: dotted #00CED1;
 	text-align: center;
+
+}
+a:visited {
+    color: Red;
 }
