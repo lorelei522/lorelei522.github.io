@@ -1,6 +1,6 @@
 body{
   background-color: pink;
-  font: "Courier New";
+  font-family: Courier;
   font-size: 18px;
 }
 img {
@@ -29,6 +29,7 @@ a:visited {
 #Opinion{
 	text-align: center;
 	color: blue;
+	font-family: Helvetica;
 }
 
 form {
