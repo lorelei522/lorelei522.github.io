@@ -1,1 +1,73 @@
-body{background-color: blue}
+body{
+  background-color: #FAEBD7;
+  font-family: Courier;
+  font-size: 18px;
+  color: #48D1CC;
+}
+img {
+	padding: 20px;
+	border: 5px #40E0D0;
+  border-style: solid;
+  border-radius: 10px;
+  display: block;
+	margin-left: auto;
+ 	margin-right: auto;    
+}
+
+footer {
+	padding: 10px;
+	margin: 20px;
+	border: dotted #40E0D0;
+  position: relative; 
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+a:visited {
+    color: Red;
+}
+
+#Opinion{
+	text-align: center;
+	color: #DB7093;
+	font-family: Helvetica;
+}
+
+form {
+   color: black;
+   border: 5px black;
+   border-style: solid;
+   border-radius: 10px;
+   position: relative; 
+   max-width: 500px;
+   margin: auto;
+   background-image: url(http://images.all-free-download.com/images/graphicthumb/modern_travel_background_set_533023.jpg);
+   background-repeat: no-repeat;
+   background-size:100% 100%;
+}
+header {
+   position: relative; 
+   max-width: 500px;
+   margin: auto;
+   text-align: center;
+}
+
+h1 {
+   position: relative; 
+   max-width: 500px;
+   margin: auto;
+   text-align: center;
+}
+.mainpara {
+   position: relative; 
+   max-width: 500px;
+   margin: auto;
+   text-align: center
+}
+
+ul {
+   position: relative; 
+   max-width: 500px;
+   margin: auto;
+}
