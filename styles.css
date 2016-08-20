@@ -22,3 +22,8 @@ footer {
 a:visited {
     color: Red;
 }
+
+#Opinion{
+	text-align: center;
+	color: blue;
+}
