@@ -1,1 +1,13 @@
-body{background-color: blue}
+body{
+  background-color: pink;
+  font: "Courier New";
+  font-size: 18px;
+
+}
+
+img {
+	padding: 20px;
+	border: 5px #00CED1;
+    border-style: solid;
+    border-radius: 10px;
+}
