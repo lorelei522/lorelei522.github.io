@@ -4,18 +4,22 @@ body{
   font-size: 18px;
 }
 img {
-	margin: 20px;
 	padding: 20px;
 	border: 5px #00CED1;
     border-style: solid;
     border-radius: 10px;
+    display: block;
+	margin-left: auto;
+ 	margin-right: auto;    
 }
 
 footer {
-	display: inline-block;
 	padding: 10px;
 	margin: 20px;
 	border: dotted #00CED1;
+    position: relative; 
+    max-width: 500px;
+    margin: auto;
 }
 
 a:visited {
@@ -27,3 +31,28 @@ a:visited {
 	color: blue;
 }
 
+form {
+   color: black;
+   border: 5px black;
+   border-style: solid;
+   border-radius: 10px;
+   position: relative; 
+   max-width: 500px;
+   margin: auto;
+   background-image: url(http://images.all-free-download.com/images/graphicthumb/modern_travel_background_set_533023.jpg);
+   background-repeat: no-repeat;
+   background-size:100% 100%;
+}
+header {
+   position: relative; 
+   max-width: 500px;
+   margin: auto;
+   text-align: center;
+}
+
+h1 {
+   position: relative; 
+   max-width: 500px;
+   margin: auto;
+   text-align: center;
+}
