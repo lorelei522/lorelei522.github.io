@@ -25,13 +25,19 @@ footer {
 }
 
 a:visited {
-    color: Red;
+  color: Red;
 }
 
-#Opinion{
-	text-align: center;
-	color: #DB7093;
-	font-family: Helvetica;
+.mainpara {
+   position: relative; 
+   max-width: 500px;
+   margin: auto;
+   text-align: center
+}
+
+#opinion{
+	 color: #DB7093;
+	 font-family: Helvetica;
 }
 
 form {
@@ -59,15 +65,19 @@ h1 {
    margin: auto;
    text-align: center;
 }
-.mainpara {
-   position: relative; 
-   max-width: 500px;
-   margin: auto;
-   text-align: center
-}
 
 ul {
    position: relative; 
    max-width: 500px;
    margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 10px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
