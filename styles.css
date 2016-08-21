@@ -71,3 +71,13 @@ ul {
    max-width: 500px;
    margin: auto;
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 10px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
